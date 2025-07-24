@@ -77,8 +77,8 @@ def extract_tables_from_multiple_pdfs(pdf_files, keyword, start_page, end_page):
 # --- StreamlitのUI部分 ---
 
 st.set_page_config(page_title="PDF表データ一括抽出ツール", layout="wide")
-st.title("📄 PDF表データ一括抽出ツール")
-st.write("複数のPDFファイルから、指定したキーワードとページ範囲に合致する表をまとめて抽出し、Excel形式でダウンロードします。")
+st.title("📄 PDF表データ　抽出ツール")
+st.write("")
 
 # --- 入力部分 ---
 uploaded_files = st.file_uploader(

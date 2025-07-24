@@ -54,7 +54,7 @@ st.write("PDFファイルから、指定したキーワードが含まれるペ�
 
 # 2. UI要素の配置
 uploaded_file = st.file_uploader("ファイルをアップロードしてください", type="pdf")
-keyword = st.text_input("検索キーワードを入力してください", placeholder="例: 発行済株式")
+keyword = st.text_input("検索キーワードを入力してください", placeholder="例: ああああああああああああああ")
 
 # 3. 実行ボタンと処理
 if st.button("抽出開始 ▶️", type="primary"):

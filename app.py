@@ -89,7 +89,7 @@ uploaded_files = st.file_uploader(
 keyword = st.text_input("検索キーワードを入力してください", placeholder="例: 発行済株式")
 
 # ページ範囲指定のUIを追加
-st.write("ページ範囲を指定（空欄の場合は全ページ対象）")
+st.write("ページ範囲を指定")
 col1, col2 = st.columns(2)
 with col1:
     start_page_input = st.text_input("開始ページ", placeholder="例: 5")
